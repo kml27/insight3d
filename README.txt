@@ -8,12 +8,13 @@ To compile insight3d under Linux, you must have the following libraries:
 
 	- opencv (which is pretty standard computer vision toolkit)
 	- opengl
-	- SDL
+	- SDL (SDL-devel)
 	- freetype2
 	- libxml2 (to parse xml files)
-	- lapack and blas (to do some math)
-	- libgtk+-2.0
-
+	- lapack and blas (to do some math) (openblas-devel)
+	- libgtk+-2.0 (gtk2-devel)
+  - gsl-devel
+  - ann (or flann)
 And this should be pretty much everything. Some of them have additional 
 requirements (opencv needs libpng, libtiff, ...) but these should be trivial. 
 
