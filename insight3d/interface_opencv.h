@@ -23,8 +23,8 @@
 
 #include "stdio.h"
 #include "pthread.h"
-#include "cv.h"
-#include "highgui.h"
+#include "legacy/legacy.hpp"
+#include "highgui/highgui.hpp"
 
 const double OPENCV_PI = 3.14159265358979323846;
 
